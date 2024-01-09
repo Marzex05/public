@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/WW4.png">
+    <script src="redirects.js"></script>
+
+</head>
+<body>
+    <div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li><a onclick="RediectHome()" target="_blank">Home</a></li>
+      <li><a onclick="RedirectListings()" target="_blank">Project Listings</a></li>
+      <li><a onclick="RedirectError404()" target="_blank">Title #3</a></li>
+      <li><a onclick="RedirectError404()" target="_blank">Title #4</a></li>
+      <li><a onclick="RedirectError404()" target="_blank">About</a></li>
+    </ul>
+  </div>
+  <div id='center' class="main center">
+    <div class="mainInner">
+      <div>Website Testing</div>
+      <a class="button">Click Me</a>
+    </div>
+  </div>
+</body>
+</html>
